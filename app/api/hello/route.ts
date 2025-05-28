@@ -8,7 +8,6 @@ export async function GET() {
     { message: 'Hello Jupiter', name: 'Jane' },
     { message: 'Hello Saturn', name: 'Jack' },
     { message: 'Hello Uranus', name: 'Jill' },
-    { message: 'Hello Neptune', name: 'Jenny' },
   ])
 }
 export async function POST(req: Request) {

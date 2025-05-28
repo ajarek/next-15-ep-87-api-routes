@@ -40,7 +40,7 @@ export default function Friends() {
     setName('')
   }
   return (
-    <div className='min-h-screen flex flex-col justify-center items-center gap-4'>
+    <div className='min-h-[calc(100vh-64px)] flex flex-col justify-center items-center gap-4'>
       <h1 className='space-x-5'>
         {name} {message}
       </h1>
